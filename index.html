@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stevan Milovanovic - QA Engineer | Bug Hunter</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Bug Background -->
+    <div class="bug-container"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-bug"></i>
+                </div>
+                <div class="logo-text">
+                    <div class="logo-name">SM</div>
+                    <div class="logo-role">QA Engineer</div>
+                </div>
+            </div>
+            <div class="test-steps">
+                <a href="#home" class="test-step active">
+                    <span class="step-number">1</span>
+                    <span>Initialize</span>
+                </a>
+                <span class="step-arrow">→</span>
+                <a href="#about" class="test-step">
+                    <span class="step-number">2</span>
+                    <span>Test Plan</span>
+                </a>
+                <span class="step-arrow">→</span>
+                <a href="#skills" class="test-step">
+                    <span class="step-number">3</span>
+                    <span>Test Tools</span>
+                </a>
+                <span class="step-arrow">→</span>
+                <a href="#experience" class="test-step">
+                    <span class="step-number">4</span>
+                    <span>Execution History</span>
+                </a>
+                <span class="step-arrow">→</span>
+                <a href="#projects" class="test-step">
+                    <span class="step-number">5</span>
+                    <span>Dev Pipeline</span>
+                </a>
+                <span class="step-arrow">→</span>
+                <a href="#contact" class="test-step">
+                    <span class="step-number">6</span>
+                    <span>Deploy</span>
+                </a>
+            </div>
+            <div class="nav-actions">
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <div class="mobile-test-steps">
+                <a href="#home" class="mobile-test-step active">
+                    <span class="step-number">1</span>
+                    <span>Initialize</span>
+                </a>
+                <a href="#about" class="mobile-test-step">
+                    <span class="step-number">2</span>
+                    <span>Test Plan</span>
+                </a>
+                <a href="#skills" class="mobile-test-step">
+                    <span class="step-number">3</span>
+                    <span>Test Tools</span>
+                </a>
+                <a href="#experience" class="mobile-test-step">
+                    <span class="step-number">4</span>
+                    <span>Execution History</span>
+                </a>
+                <a href="#projects" class="mobile-test-step">
+                    <span class="step-number">5</span>
+                    <span>Dev Pipeline</span>
+                </a>
+                <a href="#contact" class="mobile-test-step">
+                    <span class="step-number">6</span>
+                    <span>Deploy</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Stevan Milovanovic</h1>
+                    <div class="hero-subtitle">QA Engineer • Bug Hunter • System Validator</div>
+                    <div class="hero-description">
+                        I don't just find bugs—I prevent them. With 2+ years of experience engineering quality into high-stakes betting and PLM systems, I turn chaos into reliable, testable solutions that teams can trust.
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i>
+                            Execute Contact
+                        </a>
+                        <a href="https://github.com/stevanmilovan1995" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-github"></i>
+                            View Test Repository
+                        </a>
+                    </div>
+                </div>
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-btn btn-close"></div>
+                        <div class="terminal-btn btn-minimize"></div>
+                        <div class="terminal-btn btn-maximize"></div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="terminal-line">
+                            <span class="prompt">qa@stevan:~$</span>
+                            <span class="command">npm run test-automation-suite</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">Initializing comprehensive test execution...</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="success">✓ 150+ test cases executed successfully</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="success">✓ 90% regression testing time reduced</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="success">✓ Error rate maintained below 5%</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="success">✓ All critical systems validated</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">Test suite status: PASSED</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">qa@stevan:~$</span>
+                            <span class="cursor">_</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Test Status Section -->
+    <section class="test-status">
+        <div class="container">
+            <div class="status-grid">
+                <div class="status-card fade-in">
+                    <div class="status-icon passed">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="status-number">90%</div>
+                    <div class="status-label">Regression Reduction</div>
+                </div>
+                <div class="status-card fade-in">
+                    <div class="status-icon passed">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="status-number">80%</div>
+                    <div class="status-label">Automation Coverage</div>
+                </div>
+                <div class="status-card fade-in">
+                    <div class="status-icon critical">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="status-number">&lt;5%</div>
+                    <div class="status-label">Error Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Test Plan: About Stevan</h2>
+                <p class="section-subtitle">
+                    A systematic QA Engineer who engineers quality into every system and process
+                </p>
+            </div>
+            
+            <div class="test-case fade-in">
+                <div class="test-case-header">
+                    <div class="test-case-id">TC-001</div>
+                    <div class="test-case-title">Verify QA Engineer Capabilities</div>
+                </div>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <h4 style="color: var(--primary-green); margin-bottom: 0.5rem;">Given:</h4>
+                    <div class="test-step-item">A QA Engineer with 2+ years of experience in high-stakes systems</div>
+                    <div class="test-step-item">Specialized background in PLM and betting industry applications</div>
+                    <div class="test-step-item">Proven track record in automation framework development</div>
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <h4 style="color: var(--secondary-blue); margin-bottom: 0.5rem;">When:</h4>
+                    <div class="test-step-item">Complex systems require quality assurance and optimization</div>
+                    <div class="test-step-item">Manual testing processes need automation and scaling</div>
+                    <div class="test-step-item">Teams need reliable, maintainable testing solutions</div>
+                </div>
+
+                <div>
+                    <h4 style="color: var(--success); margin-bottom: 0.5rem;">Then:</h4>
+                    <div class="test-step-item">Systems become 90% more efficient through strategic automation</div>
+                    <div class="test-step-item">Error rates are maintained below 5% through systematic testing</div>
+                    <div class="test-step-item">Teams can trust and depend on the software quality</div>
+                    <div class="test-step-item">Chaos transforms into reliable, measurable processes</div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary); max-width: 800px; margin: 0 auto;">
+                    My approach is systematic: <span style="color: var(--primary-green); font-weight: 600;">identify what breaks, understand why it breaks, then automate solutions that prevent it from breaking again.</span> Every bug I catch, every framework I build, every process I streamline serves one purpose: creating software that teams can trust and users can depend on.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Test Automation Arsenal</h2>
+                <p class="section-subtitle">
+                    Comprehensive toolkit for hunting bugs and ensuring system reliability
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category fade-in">
+                    <h3>
+                        <i class="fas fa-robot"></i>
+                        Automation Framework
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">Selenium WebDriver</span>
+                        <span class="skill-tag">WebDriverIO</span>
+                        <span class="skill-tag">RestAssured</span>
+                        <span class="skill-tag">TestNG</span>
+                        <span class="skill-tag">Maven</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>
+                        <i class="fas fa-network-wired"></i>
+                        API & Performance Testing
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">Swagger</span>
+                        <span class="skill-tag">JMeter</span>
+                        <span class="skill-tag">Kafka</span>
+                        <span class="skill-tag">Fiddler</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>
+                        <i class="fas fa-database"></i>
+                        Data Validation & DB Testing
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Oracle</span>
+                        <span class="skill-tag">MSSQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">DBeaver</span>
+                        <span class="skill-tag">Data Integrity</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>
+                        <i class="fas fa-tools"></i>
+                        QA Process & Management
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JIRA</span>
+                        <span class="skill-tag">TestRail</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">Scrum</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Test Execution History</h2>
+                <p class="section-subtitle">
+                    My journey through complex systems validation and quality engineering
+                </p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="job-title">QA Engineer</div>
+                        <div class="company">Finbet</div>
+                        <div class="job-period">May 2024 - Present | Belgrade, Serbia</div>
+                        <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                            Testing high-stakes betting systems where precision matters and "mostly works" isn't an option.
+                        </p>
+                        <ul class="achievements">
+                            <li>Redesigned end-to-end backend automation, achieving <strong>90% reduction</strong> in regression testing time</li>
+                            <li>Built PTL risk management automation covering <strong>15+ business rules</strong> with <strong>50+ calculation variants</strong></li>
+                            <li>Execute comprehensive monthly regression testing across all validated betting modules and integrations</li>
+                            <li>Developed RestAssured framework from scratch for more reliable API testing approach</li>
+                            <li>Perform manual Kafka message validation for critical async system workflows</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="job-title">Software QA Engineer</div>
+                        <div class="company">Trace One</div>
+                        <div class="job-period">July 2022 - May 2024 | Belgrade, Serbia</div>
+                        <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                            Specialized in complex PLM systems, building automation frameworks that reduced manual effort while maintaining quality standards.
+                        </p>
+                        <ul class="achievements">
+                            <li>Built and maintained <strong>C# + Selenium</strong> automation frameworks focused on long-term reliability</li>
+                            <li>Automated <strong>80% of recurring enhancements</strong> while maintaining manual validation for complex scenarios</li>
+                            <li>Performed comprehensive data validation across <strong>Oracle and MSSQL</strong> databases</li>
+                            <li>Conducted performance testing with JMeter—identified root causes, not just symptoms</li>
+                            <li>Maintained error rates below <strong>5%</strong> through systematic testing approaches</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Development Pipeline</h2>
+                <p class="section-subtitle">
+                    Current projects in active development - building comprehensive testing solutions
+                </p>
+            </div>
+            
+            <div class="projects-header fade-in">
+                <div class="dev-status">
+                    <div class="status-indicator"></div>
+                    <h3 class="dev-title">Projects Under Active Development</h3>
+                </div>
+                <p class="dev-subtitle">
+                    Currently building comprehensive testing frameworks and automation tools. 
+                    Check back regularly for updates as development progresses.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <div class="project-title">
+                            <i class="fas fa-globe" style="margin-right: 0.5rem;"></i>
+                            DemoQA Test Framework
+                        </div>
+                        <span class="project-status status-active">Active Development</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            "Currently building a comprehensive test automation framework for DemoQA site. 
+                            Implementing Page Object Model, data-driven testing, and cross-browser compatibility with detailed reporting."
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <div class="project-title">
+                            <i class="fas fa-code" style="margin-right: 0.5rem;"></i>
+                            API Testing Framework
+                        </div>
+                        <span class="project-status status-planning">Planning Phase</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            "Building a comprehensive REST API testing solution with advanced reporting, 
+                            data-driven capabilities, and CI/CD integration. Focus on reusability and maintainability."
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <div class="project-title">
+                            <i class="fas fa-tachometer-alt" style="margin-right: 0.5rem;"></i>
+                            Performance Dashboard
+                        </div>
+                        <span class="project-status status-concept">Concept Phase</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            "Custom performance testing solution with real-time monitoring, 
+                            automated load testing scenarios, and comprehensive analytics."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Deploy Contact Workflow</h2>
+                <p class="section-subtitle">
+                    Ready to execute quality assurance together? Let's connect and discuss opportunities.
+                </p>
+            </div>
+            
+            <div class="workflow-steps fade-in">
+                <div class="workflow-step">
+                    <div class="workflow-number">1</div>
+                    <div class="workflow-content">
+                        <h3>Initial Contact</h3>
+                        <p>Reach out via email or LinkedIn to discuss your QA needs</p>
+                    </div>
+                </div>
+                <div class="workflow-arrow">→</div>
+                <div class="workflow-step">
+                    <div class="workflow-number">2</div>
+                    <div class="workflow-content">
+                        <h3>CV & References</h3>
+                        <p>Request detailed CV and professional references</p>
+                    </div>
+                </div>
+                <div class="workflow-arrow">→</div>
+                <div class="workflow-step">
+                    <div class="workflow-number">3</div>
+                    <div class="workflow-content">
+                        <h3>Technical Discussion</h3>
+                        <p>Schedule call to discuss automation frameworks and approach</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <a href="mailto:stvnmilovanovic1995@gmail.com" class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <span class="contact-link">
+                            stvnmilovanovic1995@gmail.com
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/stevan-milovanović1995/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <span class="contact-link">
+                            LinkedIn Profile
+                        </span>
+                    </a>
+                    <a href="https://github.com/stevanmilovan1995" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <span class="contact-link">
+                            GitHub Repository
+                        </span>
+                    </a>
+                    <div class="contact-item" style="cursor: default;">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <span class="contact-link">
+                            Belgrade, Serbia
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Stevan Milovanovic • QA Engineer • All systems tested and validated</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
